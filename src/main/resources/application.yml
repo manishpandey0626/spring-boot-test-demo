@@ -1,0 +1,10 @@
+spring:
+  # DataBase Configure
+  datasource:
+    url: jdbc:postgresql://bipeatt-db-noprod.com.intraorange:5432/dev_bipeatt?currentSchema=apimapper
+    username: apimapper_mngr
+    password: b1+.44lhxI0APddvNHMMM==t8
+    hibernate.dialect: org.hibernate.dialect.PostgreSQL81Dialect
+  jpa:
+    hibernate:
+      ddl-auto: update
